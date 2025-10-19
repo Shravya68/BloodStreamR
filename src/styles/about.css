@@ -1,0 +1,207 @@
+/* General Body and Font Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Header Styles */
+  .about-header {
+    background: #b80028;
+    color: white;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .about-header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  
+  .home-btn {
+    color: #b80028;
+    background: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .home-btn:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: #f1f1f1;
+    padding: 4rem 0;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .about-img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .about-text h1 {
+    font-size: 3.5rem;
+    color: #b80028;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-text p {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  /* Mission Section */
+  .mission {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .mission h2 {
+    font-size: 2.5rem;
+    color: #b80028;
+    margin-bottom: 1rem;
+  }
+  
+  .mission p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-us {
+    background: white;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .why-choose-us h2 {
+    font-size: 2.5rem;
+    color: #b80028;
+  }
+  
+  .why-choose-us .subtitle {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 3rem;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .why-choose-us .card {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .why-choose-us .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.08);
+  }
+  
+  .why-choose-us .card img {
+    width: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .why-choose-us .card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2.5rem;
+    color: #b80028;
+    margin-bottom: 3rem;
+  }
+  
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+  
+  .how-it-works .card {
+    padding: 1.5rem;
+  }
+  
+  .how-it-works .card h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Call to Action */
+  .cta {
+    background: #b80028;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .cta h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-donor {
+    background: white;
+    color: #b80028;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: transform 0.3s, background 0.3s;
+    display: inline-block;
+  }
+  
+  .btn-donor:hover {
+    transform: scale(1.05);
+    background: #f1f1f1;
+  }
+  
+  /* Footer */
+  .about-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
